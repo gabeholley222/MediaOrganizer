@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="72.0" layoutY="59.0" prefHeight="337.0" prefWidth="500.0">
+        <columns>
+          <TableColumn prefWidth="178.0" text="Name" />
+            <TableColumn prefWidth="56.0" text="Time" />
+            <TableColumn prefWidth="95.0" text="Artist" />
+            <TableColumn prefWidth="83.0" text="Album" />
+            <TableColumn prefWidth="87.0" text="Genre" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
